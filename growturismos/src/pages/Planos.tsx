@@ -8,7 +8,7 @@ export function Planos() {
 		<>
 			<DefaultLayount>
 				<CardContainer>
-					<CardStyled>
+					<CardStyled border="3px solid rgb(18, 42, 87);">
 						<div>
 							<div>
 								<h1>Plano 1</h1>
@@ -24,7 +24,7 @@ export function Planos() {
 							</div>
 						</div>
 					</CardStyled>
-					<CardStyled>
+					<CardStyled border="3px solid rgb(18, 42, 87);">
 						<div>
 							<div>
 								<h1>Plano 2</h1>
@@ -42,7 +42,7 @@ export function Planos() {
 							</div>
 						</div>
 					</CardStyled>
-					<CardStyled>
+					<CardStyled border="3px solid rgb(18, 42, 87);">
 						<div>
 							<div>
 								<h1>Plano 1</h1>

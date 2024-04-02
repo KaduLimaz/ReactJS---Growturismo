@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
-export const CardStyled = styled.div`
+interface BorderProps {
+	border: string;
+}
+
+export const CardStyled = styled.div<BorderProps>`
 	width: 240px;
 	height: 320px;
 	padding: 24px;
-	border: 3px solid rgb(18, 42, 87);
-
+	border: ${(props) => props.border};
 	div {
 		width: 100%;
 		height: 100%;
@@ -47,4 +50,10 @@ export const CardStyled = styled.div`
 			}
 		}
 	}
+`;
+
+export const H2styled = styled.h2`
+	color: rgb(18, 42, 87);
+	font-size: 1.2rem;
+	font-weight: 600;
 `;
