@@ -1,7 +1,14 @@
+import { BodyHomeContainer } from "../components/styled/BodyhomeContainer";
+import { DefaultLayount } from "../configs/layout/DefaultLayout";
+
 export function Contato() {
 	return (
 		<>
-			<h1>Contato</h1>
+			<DefaultLayount>
+				<BodyHomeContainer>
+					<h1>contato</h1>
+				</BodyHomeContainer>
+			</DefaultLayount>
 		</>
 	);
 }
