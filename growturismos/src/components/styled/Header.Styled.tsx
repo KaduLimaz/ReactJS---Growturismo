@@ -52,10 +52,11 @@ export const NavStyled = styled.nav`
 export const StyledLink = styled.a`
 	color: rgba(204, 204, 204, 0.8);
 	font-weight: normal;
+	/* transition: all ease 0s; */
 	text-decoration: none;
 
 	&:hover {
 		color: white;
-		font-weight: 600;
+		font-weight: 500;
 	}
 `;
